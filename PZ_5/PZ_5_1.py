@@ -20,4 +20,7 @@ def generate():
    return 'Количество одинаковых цифр ' + str(check)
 
 
-print(generate())
+try:
+    print(generate())
+except TypeError:
+    print('Аргументы не требуются')
