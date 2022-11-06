@@ -12,6 +12,6 @@ try:  # Обработчик исключений
    a, b = swap(a, b)[0], swap(a, b)[1]
    c, d = swap(c, d)[0], swap(c, d)[1]
    b, c = swap(b, c)[0], swap(b, c)[1]
-   print(‘A = ’+str(a), ‘B = ’+str(b), ‘C = ’+str(c), ‘D = ’+str(d), sep='\n')  # Вывод переменных с измененными значениями
+   print('A = '+ str(a), 'B = '+str(b), 'C = '+str(c), 'D = '+str(d), sep='\n')  # Вывод переменных с измененными значениями
 except ValueError:
    print('Введен неверный тип данных!')
